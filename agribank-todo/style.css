@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #C41E3A 0%, #8B1428 100%);
     min-height: 100vh;
     padding: 20px;
     color: #333;
@@ -24,11 +24,12 @@ body {
     border-radius: 12px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    border-top: 5px solid #C41E3A;
 }
 
 /* ========== HEADER ========== */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #C41E3A 0%, #8B1428 100%);
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -37,12 +38,15 @@ header {
 header h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 header .subtitle {
     font-size: 1.1em;
-    opacity: 0.9;
+    opacity: 0.95;
+    font-weight: 300;
 }
 
 /* ========== MAIN CONTENT ========== */
@@ -55,10 +59,10 @@ section {
 }
 
 section h2 {
-    color: #667eea;
+    color: #C41E3A;
     font-size: 1.5em;
     margin-bottom: 15px;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #C41E3A;
     padding-bottom: 10px;
 }
 
@@ -67,7 +71,7 @@ section h2 {
     background: #f8f9fa;
     padding: 20px;
     border-radius: 8px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #C41E3A;
 }
 
 .form-group {
@@ -92,8 +96,8 @@ section h2 {
 
 .input-field:focus {
     outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 8px rgba(102, 126, 234, 0.2);
+    border-color: #C41E3A;
+    box-shadow: 0 0 8px rgba(196, 30, 58, 0.2);
 }
 
 /* ========== BUTTON STYLING ========== */
@@ -108,7 +112,7 @@ section h2 {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #C41E3A 0%, #8B1428 100%);
     color: white;
     width: 100%;
     padding: 12px;
@@ -117,7 +121,7 @@ section h2 {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(196, 30, 58, 0.4);
 }
 
 .btn-primary:active {
@@ -150,14 +154,14 @@ section h2 {
 }
 
 .filter-btn:hover {
-    border-color: #667eea;
-    color: #667eea;
+    border-color: #C41E3A;
+    color: #C41E3A;
 }
 
 .filter-btn.active {
-    background: #667eea;
+    background: #C41E3A;
     color: white;
-    border-color: #667eea;
+    border-color: #C41E3A;
 }
 
 .task-count {
@@ -168,7 +172,7 @@ section h2 {
 
 #taskCount {
     font-weight: bold;
-    color: #667eea;
+    color: #C41E3A;
 }
 
 /* ========== TASKS LIST ========== */
@@ -200,7 +204,7 @@ section h2 {
 
 .task-item:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    border-color: #667eea;
+    border-color: #C41E3A;
 }
 
 .task-item.completed {
@@ -213,7 +217,7 @@ section h2 {
     width: 24px;
     height: 24px;
     cursor: pointer;
-    accent-color: #667eea;
+    accent-color: #C41E3A;
     flex-shrink: 0;
 }
 
@@ -376,12 +380,12 @@ section h2 {
 }
 
 .btn-save {
-    background: #667eea;
+    background: #C41E3A;
     color: white;
 }
 
 .btn-save:hover {
-    background: #764ba2;
+    background: #8B1428;
 }
 
 .btn-cancel {
