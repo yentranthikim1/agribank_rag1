@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Công việc - Agribank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 Quản lý Công việc</h1>
+            <p class="subtitle">Ứng dụng quản lý công việc nội bộ nhóm KTNB</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Phần thêm công việc mới -->
+            <section class="add-task-section">
+                <h2>Thêm Công việc Mới</h2>
+                <div class="form-group">
+                    <label for="taskName">Tên công việc:</label>
+                    <input 
+                        type="text" 
+                        id="taskName" 
+                        placeholder="Nhập tên công việc..." 
+                        class="input-field"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="taskAssignee">Người phụ trách:</label>
+                    <input 
+                        type="text" 
+                        id="taskAssignee" 
+                        placeholder="Nhập tên người phụ trách..." 
+                        class="input-field"
+                    >
+                </div>
+
+                <button id="addTaskBtn" class="btn btn-primary">➕ Thêm Công việc</button>
+            </section>
+
+            <!-- Phần lọc công việc -->
+            <section class="filter-section">
+                <h2>Lọc Theo Trạng thái</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">
+                        Tất cả
+                    </button>
+                    <button class="filter-btn" data-filter="pending">
+                        Đang làm
+                    </button>
+                    <button class="filter-btn" data-filter="completed">
+                        Đã hoàn thành
+                    </button>
+                </div>
+                <p class="task-count">Tổng số công việc: <span id="taskCount">0</span></p>
+            </section>
+
+            <!-- Danh sách công việc -->
+            <section class="tasks-section">
+                <h2>Danh sách Công việc</h2>
+                <div id="tasksList" class="tasks-list">
+                    <p class="empty-message">Chưa có công việc nào. Hãy thêm công việc mới!</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
