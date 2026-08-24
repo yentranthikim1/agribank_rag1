@@ -1,0 +1,6 @@
+conflict_id,domain,doc_a_id,doc_a_citation,doc_a_text,doc_b_id,doc_b_citation,doc_b_text,conflict_type,severity,description,review_status,timestamp,request_id
+CF_001,An toàn kho quỹ & Vận chuyển tiền,agr_at01,[100/QĐ-NHNO-AT - Quy định nội bộ số 100/QĐ-NHNO-AT | Điều 12 | doc_agr_at01_02],"Khi tiến hành vận chuyển tiền mặt có giá trị từ 3 tỷ đồng trở lên hoặc tuyến đường di chuyển liên tỉnh, Agribank bắt buộc bố trí xe ô tô bọc thép chuyên dùng và 02 bảo vệ chuyên trách trang bị công cụ hỗ trợ. Hạn mức vận chuyển không quá 50 tỷ đồng mỗi chuyến.",44209,"[01/2014/TT-NHNN - Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyển tiền mặt, tài sản quý, giấy tờ có giá | Điều 50. Phương tiện vận chuyển | doc_44209_điều_50__phương_tiện_vận_chuyển_50]","Văn bản: Thông tư số 01/2014/TT-NHNN Quy định về giao nhận, bảo quản, vận chuyển tiền mặt, tài sản quý, giấy tờ có giá (Số ký hiệu: 01/2014/TT-NHNN)
+Điều 50. Phương tiện vận chuyển
+Điều 50. Phương tiện vận chuyển
+1. Vận chuyển tiền mặt, tài sản quý, giấy tờ có giá phải sử dụng xe chuyên dùng và các phương tiện kỹ thuật cần thiết.
+2. Vận chuyển tiền mặt, tài sản quý, giấy tờ có giá trong hệ thống N",Hạn mức/ngưỡng,HIGH,"Có khả năng chồng chéo hoặc mâu thuẫn về hạn mức, tỷ lệ hoặc ngưỡng kiểm soát giữa 2 văn bản.",NEEDS_HUMAN_REVIEW,2026-08-24T14:17:46Z,REQ-20260824211746-C37E3C
